@@ -19,7 +19,7 @@ let completo = [];
 while (num !== 0) {
   
   let d = Math.floor(num / 2);
-  let rest = parseInt(num % 2);
+  let rest = (num % 2);
   completo.push(rest);
   num = d;
 }

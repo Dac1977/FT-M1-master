@@ -33,7 +33,7 @@ console.log(x); //1
 console.log(bar); //undefine
 console.log(baz); //undefine
 foo();
-function foo() { console.log('Hola!'); } // Hola
+function foo() { console.log('Hola!'); } 
 var bar = 1;
 baz = 2;
 ```
@@ -82,13 +82,13 @@ console.log(pm);//"Franco"
 "4" - 2 //2
 "4px" - 2 //NaN
 7 / 0 //error matematico 
-{}[0] // error de sintaxis
+{}[0] // undefine
 parseInt("09")//9 
 5 && 2 // 2
 2 && 5 // 5
 5 || 0 // 5 
 0 || 5 // 5
-[3]+[3]-[10] // 23 no entiendo (concatena los dos 3 y le resta 10)
+[3]+[3]-[10] // 23 concatena los dos primeros y luego resta
 3>2>1 //false
 [] == ![] //true
 ```
@@ -127,7 +127,7 @@ function getFood(food) {
     return snack;
 }
 
-getFood(false);// undefine por que food no esta definida
+getFood(false);// undefine
 ```
 
 
